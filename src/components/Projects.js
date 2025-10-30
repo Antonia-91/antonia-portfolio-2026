@@ -89,21 +89,29 @@ export const Projects = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
+                          <ul>
+                            <li>
+                              Creative, social, and collaborative – thrive in
+                              teams that learn and grow together.
+                            </li>
+                            <li>
+                              Fast learner and adaptable – comfortable with
+                              data-driven work and keeping up with trends.
+                            </li>
+                            <li>
+                              Passionate about health and fitness at a
+                              competitive level – developed discipline, focus,
+                              and perseverance.
+                            </li>
+                            <li>
+                              Value balance and recovery – recharge through
+                              nature and outdoor life with my dog.
+                            </li>
+                          </ul>
                         </p>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <p>
-                          thirdthirdthird Lorem ipsum dolor sit amet consectetur
-                          adipisicing elit. Cumque quam, quod neque provident
-                          velit, rem explicabo excepturi id illo molestiae
-                          blanditiis, eligendi dicta officiis asperiores
-                          delectus quasi inventore debitis quo.
-                        </p>
+                        <p></p>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>

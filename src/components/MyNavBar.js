@@ -1,6 +1,6 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { useState, useEffect } from "react";
-import logo from "../assets/img/logo.svg";
+import logo from "../assets/img/AP.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
@@ -87,8 +87,21 @@ export const MyNavBar = () => {
               </a>
             </div>
 
-            <button className="vvd" onClick={() => console.log("vvd")}>
-              <span>Lets connect</span>
+            <button
+              className="vvd"
+              onClick={() => onUpdateActiveLink("skills")}
+            >
+              <Nav.Link
+                href="#connect"
+                className={
+                  activeLink === "projects"
+                    ? "active navbar-link"
+                    : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("projects")}
+              >
+                <span>Lets connect</span>
+              </Nav.Link>
             </button>
           </span>
         </Navbar.Collapse>
