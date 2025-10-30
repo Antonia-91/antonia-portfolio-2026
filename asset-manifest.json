@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/antonia-portfolio-2026/static/css/main.ba214dd8.css",
+    "main.js": "/antonia-portfolio-2026/static/js/main.6991c6da.js",
+    "static/js/453.322cc929.chunk.js": "/antonia-portfolio-2026/static/js/453.322cc929.chunk.js",
+    "static/media/project2.png": "/antonia-portfolio-2026/static/media/project2.c4354912c53a99ea3cfd.png",
+    "static/media/antoniaProfile.png": "/antonia-portfolio-2026/static/media/antoniaProfile.6339e991563dc876ac77.png",
+    "static/media/project4.png": "/antonia-portfolio-2026/static/media/project4.4601fe9407d01c8f6154.png",
+    "static/media/project1.png": "/antonia-portfolio-2026/static/media/project1.c39122968fe82d935c00.png",
+    "static/media/project5.png": "/antonia-portfolio-2026/static/media/project5.b0bfe5ca7f7218a305ee.png",
+    "static/media/color-sharp.png": "/antonia-portfolio-2026/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/color-sharp2.png": "/antonia-portfolio-2026/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/project3.png": "/antonia-portfolio-2026/static/media/project3.6ba6623e2885994eb282.png",
+    "static/media/banner-bg.png": "/antonia-portfolio-2026/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/header-img.svg": "/antonia-portfolio-2026/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/CentraNo2-Bold.ttf": "/antonia-portfolio-2026/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/antonia-portfolio-2026/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/antonia-portfolio-2026/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/project-img1.png": "/antonia-portfolio-2026/static/media/project-img1.d593db3f12901bc685c2.png",
+    "static/media/footer-bg.png": "/antonia-portfolio-2026/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/contact-img.svg": "/antonia-portfolio-2026/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/revicons.eot": "/antonia-portfolio-2026/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/antonia-portfolio-2026/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/antonia-portfolio-2026/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/meter2.svg": "/antonia-portfolio-2026/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
+    "static/media/meter1.svg": "/antonia-portfolio-2026/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
+    "static/media/meter3.svg": "/antonia-portfolio-2026/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
+    "static/media/logo.svg": "/antonia-portfolio-2026/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
+    "static/media/nav-icon3.svg": "/antonia-portfolio-2026/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "index.html": "/antonia-portfolio-2026/index.html",
+    "static/media/nav-icon1.svg": "/antonia-portfolio-2026/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/arrow2.svg": "/antonia-portfolio-2026/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
+    "static/media/arrow1.svg": "/antonia-portfolio-2026/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
+    "static/media/nav-icon2.svg": "/antonia-portfolio-2026/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
+    "main.ba214dd8.css.map": "/antonia-portfolio-2026/static/css/main.ba214dd8.css.map",
+    "main.6991c6da.js.map": "/antonia-portfolio-2026/static/js/main.6991c6da.js.map",
+    "453.322cc929.chunk.js.map": "/antonia-portfolio-2026/static/js/453.322cc929.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba214dd8.css",
+    "static/js/main.6991c6da.js"
+  ]
+}
