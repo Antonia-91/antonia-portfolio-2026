@@ -64,13 +64,13 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                        <Nav.Link eventKey="first">Projects</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                        <Nav.Link eventKey="second">Me</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                        <Nav.Link eventKey="third">Experience</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
@@ -90,23 +90,14 @@ export const Projects = () => {
                       <Tab.Pane eventKey="second">
                         <p>
                           <ul>
-                            <li>
-                              Creative, social, and collaborative – thrive in
-                              teams that learn and grow together.
-                            </li>
-                            <li>
-                              Fast learner and adaptable – comfortable with
-                              data-driven work and keeping up with trends.
-                            </li>
-                            <li>
-                              Passionate about health and fitness at a
-                              competitive level – developed discipline, focus,
-                              and perseverance.
-                            </li>
-                            <li>
-                              Value balance and recovery – recharge through
-                              nature and outdoor life with my dog.
-                            </li>
+                            Creative, social, and collaborative – thrive in
+                            teams that learn and grow together. Fast learner and
+                            adaptable – comfortable with data-driven work and
+                            keeping up with trends. Passionate about health and
+                            fitness at a competitive level – developed
+                            discipline, focus, and perseverance. Value balance
+                            and recovery – recharge through nature and outdoor
+                            life with my dog.
                           </ul>
                         </p>
                       </Tab.Pane>
@@ -121,7 +112,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      {/* <img className="background-image-right" src={colorSharp2}></img> */}
     </section>
   );
 };

@@ -33,7 +33,7 @@ export const Experience = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>PROFESSIONAL EXPERIENCE</h2>
+              <h2>RELEVANT EXPERIENCES</h2>
 
               <Row>
                 {experiences.map((exp, index) => (

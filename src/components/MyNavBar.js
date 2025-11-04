@@ -4,6 +4,7 @@ import logo from "../assets/img/AP.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
+import { scrollToSection } from "../assets/utils/scrollTo";
 
 export const MyNavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -87,21 +88,8 @@ export const MyNavBar = () => {
               </a>
             </div>
 
-            <button
-              className="vvd"
-              onClick={() => onUpdateActiveLink("skills")}
-            >
-              <Nav.Link
-                href="#connect"
-                className={
-                  activeLink === "projects"
-                    ? "active navbar-link"
-                    : "navbar-link"
-                }
-                onClick={() => onUpdateActiveLink("projects")}
-              >
-                <span>Lets connect</span>
-              </Nav.Link>
+            <button className="vvd" onClick={() => scrollToSection("connect")}>
+              <span>Let's connect</span>
             </button>
           </span>
         </Navbar.Collapse>

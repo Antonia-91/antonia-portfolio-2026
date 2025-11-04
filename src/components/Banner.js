@@ -5,6 +5,7 @@ import antoniaProfile from "../assets/img/antoniaProfile.png";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
+import { scrollToSection } from "../assets/utils/scrollTo";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -83,7 +84,7 @@ export const Banner = () => {
                     teams with daily communication in English and close
                     collaboration with designers in Figma.
                   </p>
-                  <button onClick={() => console.log("connect")}>
+                  <button onClick={() => scrollToSection("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button>
                 </div>

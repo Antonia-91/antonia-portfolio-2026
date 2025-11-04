@@ -92,6 +92,7 @@ p.success {
 p.danger {
   color: red;
 }
+
 /************ Navbar Css ************/
 nav.navbar {
   padding: 18px 0;
@@ -356,6 +357,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
+/* gör listorna lite snyggare i den mörka boxen */
+.skill-bx ul {
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 0;
+}
+.skill-bx li {
+  color: #b8b8b8;
+  line-height: 1.6;
+}
+.skill-bx h3 {
+  margin-bottom: 6px;
+}
 
 /************ Projects Css ************/
 .project {
@@ -430,57 +444,74 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
+/* --- Kort: overlay/text syns direkt, försvinner vid hover --- */
 .proj-imgbx {
   position: relative;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
 }
+
+/* Overlay: synlig från start */
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
-  opacity: 0.85;
   position: absolute;
-  width: 100%;
-  height: 0;
-  transition: 0.4s ease-in-out;
+  inset: 0;
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  opacity: 0.85; /* synlig från start */
+  height: 100%; /* <-- var 0 tidigare */
+  transition: height 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  z-index: 1; /* läggs under texten men över bilden */
 }
+
+/* Vid hover: ta bort overlay */
 .proj-imgbx:hover::before {
-  height: 100%;
+  height: 0; /* <-- krymper bort */
+  opacity: 0; /* (valfritt men snyggt) */
 }
+
+/* Text: synlig från start */
 .proj-txtx {
   position: absolute;
   text-align: center;
-  top: 65%;
+  top: 50%; /* <-- var 65% tidigare */
   left: 50%;
   transform: translate(-50%, -50%);
   transition: 0.5s ease-in-out;
-  opacity: 0;
+  opacity: 1; /* <-- var 0 tidigare */
   width: 100%;
+  z-index: 2; /* ovanpå overlay */
+  pointer-events: none; /* så hover triggas av kortet/bilden */
 }
-.proj-imgbx:hover .proj-txtx {
-  top: 50%;
-  opacity: 1;
-}
+
 .proj-txtx h4 {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
+  color: #fff; /* säkerställ läsbarhet på overlay */
 }
 .proj-txtx span {
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
+  color: #fff;
 }
-.background-image-right {
-  top: 20%;
-  position: absolute;
-  bottom: 0;
-  width: 35%;
-  right: 0;
-  z-index: -4;
+
+/* Vid hover: göm texten (och låt bilden “komma fram”) */
+.proj-imgbx:hover .proj-txtx {
+  opacity: 0;
+  top: 60%; /* liten rörelse nedåt för fin effekt */
+}
+
+/* (Valfritt) Skala upp bilden lite när overlay försvinner – ser premium ut */
+.proj-imgbx img {
+  display: block;
+  transition: transform 0.4s ease-in-out;
+}
+.proj-imgbx:hover img {
+  transform: scale(1.03);
 }
 
 /************ Projects Css ************/
